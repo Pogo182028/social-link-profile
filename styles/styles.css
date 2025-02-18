@@ -1,6 +1,6 @@
 :root {
   --font-family: "Inter", serif;
-  --font-size: 1.2rem;
+  --font-size: 1.4rem;
 
   --green: hsl(75, 94%, 57%);
   --white: hsl(0, 0%, 100%);
@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: 600;
     margin: 0;
 }
@@ -61,6 +61,7 @@ img {
     background-color: var(--grey-800);
     border-radius: 1rem;
     padding: 2.5rem;
+    width: 32rem;
 }
 
 .social-card img {
