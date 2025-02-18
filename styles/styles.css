@@ -1,0 +1,104 @@
+:root {
+  --font-family: "Inter", serif;
+  --font-size: 1.2rem;
+
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--grey-900);
+    color: var(--white);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.social-card {
+    background-color: var(--grey-800);
+    border-radius: 1rem;
+    padding: 2.5rem;
+}
+
+.social-card img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-bottom: 2.4rem;
+}
+
+.social-card h1 {
+    margin-bottom: .5rem;
+}
+
+.social-card p:first-of-type {
+    color: var(--green);
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+}
+
+.social-card p:last-of-type {
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.links {
+    background-color: var(--grey-700);
+    border-radius: 1rem;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.links:hover {
+    background-color: var(--green);
+    color: var(--grey-900);
+}
